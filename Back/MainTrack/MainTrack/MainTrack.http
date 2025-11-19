@@ -1,0 +1,6 @@
+@MainTrack_HostAddress = http://localhost:5200
+
+GET {{MainTrack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
