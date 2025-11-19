@@ -1,0 +1,114 @@
+##########################################################
+#               .NET BACKEND IGNORE                     #
+##########################################################
+
+# Compiled source #
+###################
+*.dll
+*.exe
+*.exe.config
+*.dll.config
+*.pdb
+*.cache
+*.mdb
+*.log
+
+# Build directories #
+#####################
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio files #
+#######################
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.ide/
+
+# NuGet packages #
+##################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider (JetBrains)
+###################
+.idea/
+*.sln.iml
+
+# Dotnet output #
+#################
+/**/Properties/launchSettings.json
+/.config/
+
+##########################################################
+#           FRONTEND: REACT + NEXT IGNORE               #
+##########################################################
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build
+.next/
+out/
+dist/
+
+# Local env files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+**/logs/
+
+# OS files
+#########################
+.DS_Store
+Thumbs.db
+
+# Editor folders
+#########################
+.vscode/
+*.swp
+
+##########################################################
+# FRONTEND (Adicional para vercel, turbo, etc.)         #
+##########################################################
+
+# Turbo
+.turbo/
+
+# Vercel
+.vercel/
+
+##########################################################
+#          MONOREPO (MULTIPROJECT) GENERAL               #
+##########################################################
+
+# Lockfiles (se trackean)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Cache
+**/.cache/
+.cache/
